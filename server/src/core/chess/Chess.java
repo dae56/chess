@@ -17,6 +17,6 @@ public class Chess {
 
     @Override
     public String toString() {
-        return "[" + getClass().getName() + ":" + color.toString() + "]";
+        return "[" + getClass().getSimpleName() + ":" + color.toString() + "]";
     }
 }
