@@ -22,7 +22,14 @@ public class Table {
 
     Cell[][] table = new Cell[8][8];
 
-    public static 
+    public static int convertCoordLetter(String letter) {
+        return letter.charAt(0) - 65;
+    }
+
+    public static int convertCoordNumber(String num) {
+        return Integer.parseInt(num) - 1;
+    }
+    
 
     public Table() {
         
