@@ -1,4 +1,4 @@
-package core;
+package core.chess;
 
 public enum ColorChessEnum {
     BLACK,
